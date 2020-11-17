@@ -7,6 +7,9 @@ import PreviewAppBar from './app-bar';
 import PreviewBadge from './badge';
 import PreviewBottomNavigation from './bottom-navigation';
 import PreviewButton from './button';
+import ListItemComponent from './list-item';
+import InputComponent from './input';
+import { TextField } from '@material-ui/core';
 
 const styles = (theme) => ({
   root: {
@@ -20,7 +23,10 @@ class PreviewContainer extends React.PureComponent {
     return (
       <Paper className={cn(classes.root, className)}>
         <PreviewAppBar />
-        <PreviewBadge />
+        <br />
+        <InputComponent />
+        <ListItemComponent />
+
         <PreviewBottomNavigation />
         <PreviewButton />
       </Paper>

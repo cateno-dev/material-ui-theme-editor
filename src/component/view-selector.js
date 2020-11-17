@@ -27,9 +27,7 @@ class ViewSelector extends React.PureComponent {
         <ToggleButton value="mobile">
           <Smartphone />
         </ToggleButton>
-        <ToggleButton value="desktop">
-          <DesktopWindows />
-        </ToggleButton>
+
       </ToggleButtonGroup>
     );
   }

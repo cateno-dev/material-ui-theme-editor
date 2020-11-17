@@ -27,12 +27,6 @@ class PreviewButton extends React.PureComponent {
           <Button color="secondary" className={classes.button}>
             Secondary
           </Button>
-          <Button disabled className={classes.button}>
-            Disabled
-          </Button>
-          <Button href="#text-buttons" className={classes.button}>
-            Link
-          </Button>
         </div>
         <div className={classes.root}>
           <Button className={classes.button} variant="outlined">Default</Button>
@@ -41,12 +35,6 @@ class PreviewButton extends React.PureComponent {
           </Button>
           <Button color="secondary" className={classes.button} variant="outlined">
             Secondary
-          </Button>
-          <Button disabled className={classes.button} variant="outlined">
-            Disabled
-          </Button>
-          <Button href="#text-buttons" className={classes.button} variant="outlined">
-            Link
           </Button>
         </div>
         <div className={classes.root}>
@@ -57,12 +45,7 @@ class PreviewButton extends React.PureComponent {
           <Button color="secondary" className={classes.button} variant="contained">
             Secondary
           </Button>
-          <Button disabled className={classes.button} variant="contained">
-            Disabled
-          </Button>
-          <Button href="#text-buttons" className={classes.button} variant="contained">
-            Link
-          </Button>
+
         </div>
         <div className={classes.root}>
           <Button color="primary" className={classes.button} variant="fab">
@@ -71,12 +54,7 @@ class PreviewButton extends React.PureComponent {
           <Button color="secondary" className={classes.button} variant="fab">
             <DeleteIcon />
           </Button>
-          <Button disabled className={classes.button} variant="fab">
-            <NavigationIcon />
-          </Button>
-          <Button href="#text-buttons" className={classes.button} variant="fab">
-            Link
-          </Button>
+
         </div>
       </React.Fragment>
     );

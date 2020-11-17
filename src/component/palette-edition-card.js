@@ -27,6 +27,7 @@ class PaletteEditionCard extends React.PureComponent {
 
   render() {
     const { classes, palette, rootClassName, label, fields } = this.props;
+
     return (
       <Card className={cn(rootClassName, classes.root)}>
         <CardContent>

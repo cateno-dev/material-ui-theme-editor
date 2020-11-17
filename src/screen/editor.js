@@ -25,12 +25,15 @@ const styles = (theme) => ({
     bottom: theme.spacing.unit * 2,
     right: theme.spacing.unit * 2,
   },
+  background: {
+    paper: "#000000"
+  }
 });
 
 class Editor extends React.Component {
   state = {
     theme: createMuiTheme(),
-    view: 'desktop',
+    view: 'mobile',
   };
 
   handleChangeTheme = (theme) =>
@@ -43,7 +46,7 @@ class Editor extends React.Component {
     const { classes } = this.props;
     return (
       <main className={classes.root}>
-        <GithubButton />
+
         <SectionEdition
           rootClassName={classes.edition}
           onChange={this.handleChangeTheme}

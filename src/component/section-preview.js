@@ -25,8 +25,8 @@ const styles = (theme) => ({
   desktop: {
   },
   mobile: {
-    maxWidth: 350,
-    maxHeight: 650,
+    maxWidth: 400,
+    maxHeight: 812,
   },
 });
 
@@ -44,7 +44,7 @@ class SectionPreview extends React.PureComponent {
         </div>
         <PreviewDisplay
           className={cn(classes.container, {
-            [classes.desktop]: this.props.view === 'desktop',
+            // [classes.desktop]: this.props.view === 'desktop',
             [classes.mobile]: this.props.view === 'mobile',
           })}
           theme={this.props.theme}

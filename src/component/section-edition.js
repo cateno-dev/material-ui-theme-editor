@@ -19,36 +19,42 @@ const styles = (theme) => ({
 
 const paletteFields = {
   common: [
-    {label: 'Black', name: 'black'},
-    {label: 'White', name: 'white'},
+    { label: 'Black', name: 'black' },
+    { label: 'White', name: 'white' },
   ],
   background: [
-    {label: 'Paper', name: 'paper'},
-    {label: 'Default', name: 'default'},
+    { label: 'Paper', name: 'paper' },
+    { label: 'Default', name: 'default' },
   ],
   primary: [
-    {label: 'Main', name: 'main'},
-    {label: 'Light', name: 'light'},
-    {label: 'Dark', name: 'dark'},
-    {label: 'Contrast text', name: 'contrastText'},
+    { label: 'Main', name: 'main' },
+    { label: 'Light', name: 'light' },
+    { label: 'Dark', name: 'dark' },
+    { label: 'Contrast text', name: 'contrastText' },
   ],
   secondary: [
-    {label: 'Main', name: 'main'},
-    {label: 'Light', name: 'light'},
-    {label: 'Dark', name: 'dark'},
-    {label: 'Contrast text', name: 'contrastText'},
+    { label: 'Main', name: 'main' },
+    { label: 'Light', name: 'light' },
+    { label: 'Dark', name: 'dark' },
+    { label: 'Contrast text', name: 'contrastText' },
   ],
   error: [
-    {label: 'Main', name: 'main'},
-    {label: 'Light', name: 'light'},
-    {label: 'Dark', name: 'dark'},
-    {label: 'Contrast text', name: 'contrastText'},
+    { label: 'Main', name: 'main' },
+    { label: 'Light', name: 'light' },
+    { label: 'Dark', name: 'dark' },
+    { label: 'Contrast text', name: 'contrastText' },
+  ],
+  success: [
+    { label: 'Main', name: 'main' },
+    { label: 'Light', name: 'light' },
+    { label: 'Dark', name: 'dark' },
+    { label: 'Contrast text', name: 'contrastText' },
   ],
   text: [
-    {label: 'Primary', name: 'primary'},
-    {label: 'Secondary', name: 'secondary'},
-    {label: 'Disabled', name: 'disabled'},
-    {label: 'Hint', name: 'hint'},
+    { label: 'Primary', name: 'primary' },
+    { label: 'Secondary', name: 'secondary' },
+    { label: 'Disabled', name: 'disabled' },
+    { label: 'Hint', name: 'hint' },
   ],
 };
 
@@ -108,6 +114,7 @@ class SectionEdition extends React.PureComponent {
           palette={this.props.theme.palette.error}
           rootClassName={classes.card}
         />
+
         <PaletteEditionCard
           label="Text colors"
           name="text"
